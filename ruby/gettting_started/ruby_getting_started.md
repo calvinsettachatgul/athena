@@ -1,0 +1,1 @@
+# Ruby is a high level scripting language
