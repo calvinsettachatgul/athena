@@ -22,3 +22,11 @@ sqlite3 --version
 you can view the options of rails new with
 
   * >rails new -h
+
+## start your rails server
+
+  you can start your rails server with
+
+  * >bin/rails server
+
+  you will see a default webpage that ships with a newly generated Rails application
