@@ -6,7 +6,7 @@
 
 ## check version of sqlite3
 
-sqlite3 --version
+>sqlite3 --version
 
 ## install Rails
 
@@ -21,7 +21,7 @@ sqlite3 --version
 
 you can view the options of rails new with
 
-  * >rails new -h
+  * > rails new -h
 
 ## start your rails server
 
