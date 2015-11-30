@@ -1,4 +1,6 @@
-# Regex 11/30/2015 10:26 AM
+# Regex
+
+11/30/2015 10:26 AM
 
 * Regex means Regular Expression a syntax that is used to search for and characterize strings
 
