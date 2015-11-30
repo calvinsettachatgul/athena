@@ -30,3 +30,14 @@ you can view the options of rails new with
   * >bin/rails server
 
   you will see a default webpage that ships with a newly generated Rails application
+
+## create a controller and a view
+
+  * create a new controller with the run "controller" generator
+
+  * specify you want a controller called "welcome" with an action called "index"
+
+  * >bin/rails generate controller [controller_name] [index]
+
+  * >bin/rails generate controller welcome index
+
