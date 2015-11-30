@@ -21,7 +21,7 @@ sqlite3 --version
 
 you can view the options of rails new with
 
-  * > rails new -h
+  *  >rails new -h
 
 ## start your rails server
 
