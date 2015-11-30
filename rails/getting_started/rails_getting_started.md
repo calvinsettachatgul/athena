@@ -6,7 +6,7 @@
 
 ## check version of sqlite3
 
->sqlite3 --version
+ >sqlite3 --version
 
 ## install Rails
 
