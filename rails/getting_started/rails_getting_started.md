@@ -14,14 +14,14 @@ sqlite3 --version
 
 ## create a blog app
 
->rails new blog
+ >rails new blog
 
   * creates a rails app in the blog directory
   * installs dependencies with bundler
 
 you can view the options of rails new with
 
-  *  >rails new -h
+   >rails new -h
 
 ## start your rails server
 
