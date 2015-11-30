@@ -37,7 +37,7 @@ you can view the options of rails new with
 
   * specify you want a controller called "welcome" with an action called "index"
 
-  * >bin/rails generate controller [controller_name] [index]
+  * >bin/rails generate controller [controller_name] [action_name]
 
   * >bin/rails generate controller welcome index
 
