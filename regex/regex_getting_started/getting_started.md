@@ -16,3 +16,7 @@
     * regex.match(string)
     * /string/.match("The cat chased the string.") => "string"
     * /needle/.match("We're in a haystack.") => nil
+
+  * ? optionality character
+    * example: "abcdef"[/abz?/] => "ab"
+
