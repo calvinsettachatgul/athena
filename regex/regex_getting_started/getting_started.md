@@ -20,3 +20,21 @@
   * ? optionality character
     * example: "abcdef"[/abz?/] => "ab"
 
+12/01/2015 12:38 PM
+
+## More of the regex basics
+
+* . a wild card any one character except line breaks
+  * gre.t
+* [] character set, any one character listed inside []
+  * gr[ea]y
+* [^ ] negative character set any one character not listed inside the []
+  * [^aeiou]
+- range indicator when inside a character set
+  * [A-Za-z0-9]
+* * Preceding element can occur zero or more times
+  * file_*name
+* + preceding element can occur one or more times * extended regex syntax
+  * gro+ve
+* ? preceding element can occur zero or more times * extended regex syntax
+  * colou?r
