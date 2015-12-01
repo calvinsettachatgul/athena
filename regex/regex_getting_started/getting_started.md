@@ -38,3 +38,7 @@
   * gro+ve
 * ? preceding element can occur zero or more times * extended regex syntax
   * colou?r
+
+# Resoruces
+
+* Unix for Mac OSX Users Kevin Skoglund Lynda.com
