@@ -17,3 +17,6 @@
 *  https://www.raspberrypi.org/help/noobs-setup/
 
 *  https://github.com/raspberrypi/noobs/blob/master/README.md
+
+*  https://pihw.wordpress.com/guides/direct-network-connection/
+
