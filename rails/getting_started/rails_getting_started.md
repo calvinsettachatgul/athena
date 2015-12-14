@@ -43,3 +43,19 @@ you can view the options of rails new with
 
   * >bin/rails generate controller welcome index
 
+    *  This command creates a controller named welcome as well as a method named index
+
+
+#  Resources
+
+*  From the RailsGuides Getting Started with Rails
+
+    *  "A resource is a term used for a collection of similar objects, such as articles, people or animals.  You can create, read, update and destroy times for a resouce and these operations are referred to as CRUD operations."
+
+    * > resources :articles
+
+    * > bin/rake routes
+
+      *  running bin/rake routes will list the defined routes for the resource articles
+
+      *  these are all the standard RESTful actions
