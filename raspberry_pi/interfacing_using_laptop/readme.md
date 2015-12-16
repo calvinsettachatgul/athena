@@ -1,4 +1,4 @@
-#  Connecting to the Raspberry Pi using MAC OSX laptop
+insert image here#  Connecting to the Raspberry Pi using MAC OSX laptop
 
 *  This configuration is called "headless"
 
@@ -8,7 +8,7 @@
 
 *  You should see the following files
 
-*  insert image here
+*  ![directory on rasp pi][../../imgs/raspberry_pi_startup_directory.png =200x200]
 
 #  RESOURCES
 
