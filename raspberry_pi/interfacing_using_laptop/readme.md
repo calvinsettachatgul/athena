@@ -8,7 +8,7 @@ insert image here#  Connecting to the Raspberry Pi using MAC OSX laptop
 
 *  You should see the following files
 
-*  ![directory on rasp pi][../../imgs/raspberry_pi_startup_directory.png =200x200]
+*  ![alt text][/imgs/raspberry_pi_startup_directory.png =200x200 "directory on rasp pi"]
 
 #  RESOURCES
 
