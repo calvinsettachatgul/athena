@@ -1,4 +1,4 @@
-insert image here#  Connecting to the Raspberry Pi using MAC OSX laptop
+#  Connecting to the Raspberry Pi using MAC OSX laptop
 
 *  This configuration is called "headless"
 
