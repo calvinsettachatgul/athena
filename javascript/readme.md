@@ -10,7 +10,7 @@
 
   *  example syntax
 
-  *  var filterFunction = function(number){ return number % 2 === 0 } // this is a fitler function that returns true if the input is divisible by 2
+  *  var filterFunction = function(number){ return number % 2 === 0 } // this is a filter function that returns true if the input is divisible by 2
 
   *  var filteredArray = array.filter(filterFunction);
 
