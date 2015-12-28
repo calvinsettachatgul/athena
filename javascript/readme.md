@@ -2,7 +2,7 @@
 
 *  Javascript is a client side language originally intended for providing dynamic functionality for websites.
 
-*  Nodejs made an appearance and interprets javascript to be be used server side as well.
+*  Nodejs made an subsequent appearance to interpret javascript to be be used server side as well.
 
 ##  Array filter function
 
