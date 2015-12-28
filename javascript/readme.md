@@ -12,7 +12,7 @@
 
   *  var filterFunction = function(number){ return number % 2 === 0 } // this is a fitler function that returns true if the input is divisible by 2
 
-  *  var filteredArray = Array.filter(filterFunction);
+  *  var filteredArray = array.filter(filterFunction);
 
     *  Use case
 
