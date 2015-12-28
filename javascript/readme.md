@@ -2,7 +2,7 @@
 
 *  Javascript is a client side language originally intended for providing dynamic functionality for websites.
 
-*  Nodejs made an appearance and interprets javascript to be be used server side as well.
+*  Nodejs made an subsequent appearance to interpret javascript to be be used server side as well.
 
 ##  Array filter function
 
@@ -16,7 +16,10 @@
 
     *  Use case
 
-    *>  var array = [1 , 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    *>  var findEven = function(number) { return number % 2 === 0};
-    *>  var evenElements = array.filter(findEven);
+    *  >var array = [1 , 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    
+    *   >var findEven = function(number) { return number % 2 === 0};
+       
+    *   >var evenElements = array.filter(findEven);
+    
     * => [2, 4, 6, 8, 10];
