@@ -26,3 +26,7 @@
 
   *  fs.readdir(path, callback)#
 Asynchronous readdir(3). Reads the contents of a directory. The callback gets two arguments (err, files) where files is an array of the names of the files in the directory excluding '.' and '..'.
+
+###  Callbacks
+
+  *  Callbacks is the primary way that javascript and node behave asynchronously.  By encapsulating behavior in functions and calling the functions simultaneously with another function call (nesting the functions in callbacks).  Behaviors can happen in parallel.
