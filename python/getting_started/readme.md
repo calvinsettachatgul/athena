@@ -27,7 +27,7 @@
 
 *  You'll see an output similar to this:
 
-![alt text](/imgs/print_now.png "sample of the print_now output")
+![picture of commandline](/imgs/print_now_output.png "sample of the print_now output")
 
 
 
