@@ -4,7 +4,7 @@
 
 *  example of importing a module in python
 
-*  from datetime import datatime
+*  from datetime import datetime
 
 *  now = datetime.now()
 
@@ -13,6 +13,15 @@
 *  print now.month
 
 *  print now.day
+
+    *  from the above example we import into the the symbol datetime the module or package datetime
+
+    *  in general we can write
+      >  from module_name import symbol
+
+    *  this gives us the added methods that come with the datetime package including instantiating a date that is datetime.now()
+
+    *  printing out the year, month and day with the subsequent date object calls.
 
 
 ##  Resources
