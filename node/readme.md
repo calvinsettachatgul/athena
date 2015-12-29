@@ -29,4 +29,4 @@ Asynchronous readdir(3). Reads the contents of a directory. The callback gets tw
 
 ###  Callbacks
 
-  *  Callbacks is the primary way that javascript and node behave asynchronously.  By encapsulating behavior in functions and calling the functions simultaneously with another function call (nesting the functions in callbacks).  Behaviors can happen in parallel.
+*  Callbacks is the primary way that javascript and node behave asynchronously.  By encapsulating behavior in functions and calling the functions simultaneously with another function call (nesting the functions in callbacks).  Behaviors can happen in parallel.
