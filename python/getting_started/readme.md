@@ -23,6 +23,13 @@
 
     *  printing out the year, month and day with the subsequent date object calls.
 
+*  The above code is located in the file print_now.py
+
+*  You'll see an output similar to this:
+
+![alt text](/imgs/print_now.png "sample of the print_now output")
+
+
 
 ##  Resources
 
