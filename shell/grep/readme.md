@@ -15,6 +15,6 @@
 
 *  -r means recursively
 
-*> grep -r "search term" parent_directory
+*  > grep -r "search term" parent_directory
 
   *  in this case the -r flag is used to recursively search in the the path of the parent directory and any children directories for files that contain the string "search term"
