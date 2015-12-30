@@ -29,7 +29,19 @@
 
 ![picture of commandline](/imgs/print_now_output.png "sample of the print_now output")
 
+##  String interpolation
 
+*  syntax
+
+*  '%s , %s, %s' % ( string_variable1, string_variable2, string_variable3)
+
+    *  in the syntax above %s will be a place holder for the string variables in the order they are placed in the parenthesis
+
+*  example code
+
+    *  >  print '%s %s' % ('Hello', 'World!')
+
+    *  => Hello World!
 
 ##  Resources
 
