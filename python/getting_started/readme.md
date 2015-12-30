@@ -14,10 +14,10 @@
 
 *  print now.day
 
-    *  from the above example we import into the the symbol datetime the module or package datetime
+    *  from the above example we import the funnctions of datetime from the module or package datetime
 
     *  in general we can write
-      >  from module_name import symbol
+      >  from module_name import function
 
     *  this gives us the added methods that come with the datetime package including instantiating a date that is datetime.now()
 
