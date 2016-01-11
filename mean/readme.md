@@ -2,13 +2,13 @@
 
 ###  MEAN stack is composed of 4 different layers
 
-#### M in MEAN refers to the database layer using MongoDB
+#### M refers to the database layer using MongoDB
 
-#### E in MEAN refers to the router module called express that is a node module to create routes
+#### E refers to the router module called express that is a node module to create routes
 
-#### A in MEAN refers to the view layer which is Angular.js a front end framework
+#### A refers to the view layer which is Angular.js a front end framework
 
-#### N in MEAN refers to the backend language Node.js
+#### N refers to the backend language Node.js
 
 ##  Creating a simple myapp Hello World!
 
