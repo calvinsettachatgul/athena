@@ -1,6 +1,6 @@
 ##  MEAN stack
 
-###  MEAN stack is composed of 3 different layers
+###  MEAN stack is composed of 4 different layers
 
 #### M in MEAN refers to the database layer using MongoDB
 
