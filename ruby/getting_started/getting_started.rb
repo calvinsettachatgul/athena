@@ -331,3 +331,9 @@ order_soda("grape", "large")
 # our objects don't " know " their names and ages
 
 #  Too many arguments(again)
+
+# Local variables live until the method ends
+
+    # instance variables
+
+# Encapsulation
