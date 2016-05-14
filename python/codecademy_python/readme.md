@@ -53,6 +53,12 @@ line comment """
 
 > print("%.2f" % total)
 
+#### access a char in string by index 
 
+> greeting = "hello"
+
+> \# # first character
+
+>  greeting[0]
 
 
