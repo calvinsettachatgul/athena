@@ -16,7 +16,7 @@
 eggs = 12
 return eggs
 
-print spam()
+> print spam()
 
 #### above code returns an error eggs is defined outside of the def spam()
 
