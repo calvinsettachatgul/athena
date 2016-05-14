@@ -28,7 +28,7 @@ print spam()
 
 #### Comments are indicated with a pound sign
 
-> # this is a comment
+>  \# this is a comment
 
 #### multi line comments with """
 
