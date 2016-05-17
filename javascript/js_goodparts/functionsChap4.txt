@@ -1,0 +1,84 @@
+### Chapter 4 Function
+
+
+A functon encloses a set of statements. Functions are the fundamental modular unit of Javascript.  
+	- code reuse
+	- information hiding
+	- composition
+used to specify behavior of objects.
+programming - factoring of a set of requirements into a set of functions and data structures.
+
+##### Function Objects
+
+every function is also created with 2 additional hidden properties the 
+	- function's context
+	- the code that implements the function's behavior
+
+the thing that is special about functions is that they can be invoked
+
+#### Function Literal
+
+var add = function(a, b){
+	return a + b;
+);
+
+4 parts
+	reserved word function
+	optional second part is the function's name
+		name can be used to call itself! recursively
+		debuggers / devtools to identify the function
+		 	- not given name then annonymous
+		parameters wrapped in parenthesis
+			parameters names
+				unlike ordinary variables instead of being initalized to undefined, they will be initialized to arguments supplied when function is invoked
+
+		set of statements wrapped in curly braces {}
+			function body executed when function is invoked
+
+can appear anywhere an expression can appear
+functions can be defined inside other functions
+	inner function has access to its paramaters and variables
+	inner function enjoys access to parameters and variables it is nested within
+	function object created by a function literal contains a link to that outer context
+	this is called closure
+	this is source of enormous expressive power
+
+#### Invocation
+
+suspends the execution of the current function,
+passing control and paramaters to the new function
+
+in addition to declared parameters every function receives 2 arguments
+	this
+	arguments
+
+	this important in OOP value determined by the invocation pattern
+	
+	4 types of patterns
+	
+	method invocation pattern
+	function invocation pattern
+	constructor invocation pattern
+	apply invocation pattern
+		differ in how parameter this is initialized
+
+	invocation operator () pair of parentheis that allow any expression that produces a function value
+	contain 0 or more expressions
+	sep by commas
+	ea expression produces one argument value
+
+	ea arg value assigned to the function's parameters names
+	there is no run-time error when the number of arg and numb of parameters do not match!
+
+	if too few arg values undefined substituted for missing values
+	no type cheking on arg values: any type of value can be passed to any parameter
+
+
+#### The Method Invocation Pattern
+
+
+#### The Function Invocation Pattern
+
+
+
+	
