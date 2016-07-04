@@ -12,4 +12,19 @@ class LinkedList
 			current_node = current_node.next
 		end
 	end
+	def last()
+		current_node = @head
+		while(current_node.next != nil)do
+			current_node = current_node.next
+			
+		end		
+		last = current_node
+		return last
+	end
+	def insert_end(value)
+		last_node = self.last()
+		insert_node = Node.new(value)
+		last_node.next = insert_node
+
+	end
 end
