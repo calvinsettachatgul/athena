@@ -1,5 +1,5 @@
 var counter = require("./counter");
-var arr = ['calvin', 'patson', 'mom', 'dad'];
+var arr = ['apple', 'orange', 'banana', 'pear'];
 console.log( "executed counter1" );
 counter.counter1(arr);
 console.log( "executed counter2" );
