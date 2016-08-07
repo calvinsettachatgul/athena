@@ -7,9 +7,10 @@ var counter2 = function(arr){
 };
 
 
-counter1( ['calvin' , 'patson', 'mom', 'dad']);
+//counter1( ['calvin' , 'patson', 'mom', 'dad']);
 console.log("You've require'd module counter");
 
-module.exports = counter2;
+module.exports.counter1 = counter1;
+module.exports.counter2 = counter2;
 
 
