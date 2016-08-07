@@ -1,6 +1,6 @@
 #### Identify the USB serial device name of your Intel Edison board
 
-ls /dev/cu.usbserail-* 
+ls /dev/cu.usbserial-* 
 
 find the name of the USB serial connection that shows up when your intel Edison board is blugged into your computer
 
