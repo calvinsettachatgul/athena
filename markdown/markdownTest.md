@@ -1,4 +1,4 @@
-### Table
+### Table in Markdown
 
 | this | is | a | table |
 |------|----|---|-------|
