@@ -47,11 +47,13 @@ Examples:
 * dip delete in paragraph
 * dt{ delete until {
 
-the paragraph block starts below this line
+the paragraph block starts below this line paragraphs are separated by a blank line
 
-{hello} // try ci{ here on any part of the expression<br>
-	this is a paragraph // navigate to any word and try ciw and diw<br>
-	a paragraph is this // move to any part of this entire block and try dip<br>
+```
+{hello} // try ci{ here on any part of the expression
+	this is a paragraph // navigate to any word and try ciw and diw
+	a paragraph is this // move to any part of this entire block and try dip
 hello
+```
 
 this won't get deleted if you use dip
