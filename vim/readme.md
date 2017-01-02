@@ -49,7 +49,7 @@ Examples:
 
 the paragraph block starts below this line
 
-{hello} // try ci{ here on any part of the expression\s
+{hello} // try ci{ here on any part of the expression\s\s
 	this is a paragraph // navigate to any word and try ciw and diw\s
 	a paragraph is this // move to any part of this entire block and try dip\s
 hello
