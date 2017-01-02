@@ -1,11 +1,21 @@
 ## VIM
 
+### Modes
+------------------------------
+
+basic modes:
+
+Normal 
+Insert 
+Command-line
+
+
 ### Some Simple Vim Navigation
 ------------------------------
 
-Command mode
+Normal mode
 
-*Note:* Navigation for left down up right.  Must be in command mode press continuously to repeat.
+*Note:* Navigation for left down up right.  Must be in Normal mode press continuously to repeat.
 
 * h left
 * j down
@@ -21,11 +31,11 @@ Command mode
 ### Editing
 ------------------------------
 
-Command mode
+Normal mode
 
 *Note:* Navigation for left down up right.  Must be in command mode press continuously to repeat.
 
-Returns to Command mode
+Returns to Normal mode
 
 * x delete one character under the cursor and stays in command mode
 * r replace one character under the cursor with another character
@@ -34,7 +44,7 @@ Returns to Command mode
 ## Composed Commands
 ------------------------------
 
-Remains in Command mode
+Remains in Normal mode
 
 Action + Modifier + Noun
 
