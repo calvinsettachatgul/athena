@@ -1,6 +1,7 @@
 ## VIM
 
 ### Some Simple Vim Navigation
+------------------------------
 
 Command mode
 
@@ -18,6 +19,7 @@ Command mode
 
 
 ### Editing
+------------------------------
 
 Command mode
 
@@ -30,6 +32,7 @@ Returns to Command mode
 * R replace from command mode to escape
 
 ## Composed Commands
+------------------------------
 
 Remains in Command mode
 
@@ -41,7 +44,6 @@ Examples:
 * ci{ Change + Inside + {
 * cip Change + Inside + Paragraph
 * dt{ Delete + Till + {
-
 * ciw change in word
 * diw delete in word
 * dip delete in paragraph
