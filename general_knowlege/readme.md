@@ -1,4 +1,4 @@
-# General Knowledge is a collection of things I want to go over
+# General Knowledge Routine
 
 # Classes 
 
