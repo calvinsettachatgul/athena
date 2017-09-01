@@ -6,4 +6,5 @@ ruby [ruby_class](../ruby/ruby_class)
 
 python [python_class](../python/python_class)
 
-javascript
+javascript [javascript_class](../javascript/javascript_class)
+
