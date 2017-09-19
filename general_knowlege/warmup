@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "running warmup"
+
+FILES=(
+	"../javascript/javascript_class/person.js", 
+	"../python/python_class/person.py", 
+	"../ruby/ruby_class/person.rb"
+)
+
+
+for f in $FILES
+	do
+		echo f
+	done
