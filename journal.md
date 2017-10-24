@@ -2,7 +2,9 @@
 102317
 ------------------------------
 go over general knowledge
-I want to document the ways to iterate in Ruby
+document the ways to iterate in Ruby
+create a folder ruby_iteration
+
 
 010117
 ------------------------------
