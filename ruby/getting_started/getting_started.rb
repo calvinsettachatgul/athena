@@ -300,7 +300,7 @@ order_soda("grape", "large")
 
 #Designing a class
 
-# instace vs object
+# instance vs object
 
 # instance variables
 # instance methtods
