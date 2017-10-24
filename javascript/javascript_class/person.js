@@ -1,4 +1,4 @@
-// Constructor
+// Javascript class prototype example
 
 function Person(firstName, lastName){
 	this.firstName = firstName;
@@ -6,10 +6,11 @@ function Person(firstName, lastName){
 }
 
 Person.prototype = {
-	sayHello: function(){
+	introduce: function(){
 		console.log("Hello my name is " + this.firstName + " " + this.lastName);
 	}
 }
 
+// driver code
 me = new Person("Calvin", "Settachatgul");
-me.sayHello();
+me.introduce();
