@@ -1,3 +1,5 @@
+require "pry"
+
 puts "Ruby Iteration"
 # Ruby While Statement
 
