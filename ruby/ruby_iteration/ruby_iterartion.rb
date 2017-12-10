@@ -3,7 +3,7 @@ require "pry"
 puts "Ruby Iteration"
 # Ruby While Statement
 
-# syntax
+## syntax
 '''
 while condition [do]
     code
@@ -19,7 +19,7 @@ while i < num do
     i += 1
 end
 
-# ruby while modifier
+## ruby while modifier
 '''
 code while condition
 
@@ -29,7 +29,7 @@ begin
     code 
 end while condition
 '''
-# example
+## example
 puts "running do while loop with begin"
 i = 0 
 num = 5 
@@ -64,7 +64,7 @@ until i > num do
 end
 
 
-# ruby until modifier 
+## ruby until modifier 
 
 # ruby for statement
 '''
@@ -76,10 +76,10 @@ end
 # example
 
 for i in 0...5 
-    puts "value of local varialbe is  #{i}"
+    puts "value of local variable is  #{i}"
 end
 
-# for in loop amost exactly equivalent to the following 
+# for in loop almost exactly equivalent to the following 
 # (expression).each do | variable[, variable...]} code end
 ''' 
 for loop doesn\'t create a new scope for local variables
@@ -95,7 +95,5 @@ end
 # ruby next statement
 # ruby redo statement
 # ruby retry statement
-
-
 
 
