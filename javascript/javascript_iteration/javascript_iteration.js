@@ -11,6 +11,8 @@ for (initialization; test condition; iteration statement){
 
 */
 
+let code_str_template = ``
+
 // For loop example
 console.log("Example of Iteration with a for loop" );
 console.log("******************************" );
@@ -60,7 +62,7 @@ my_arr.forEach( function(el){
 console.log("Example of for...of statement iterating over iterable objects");
 console.log("******************************" );
 
-let code_str_template = 
+code_str_template = 
 `
 >> for (variable of object) {
 >>     statement
@@ -74,5 +76,31 @@ let arr = [3, 5, 7];
 for ( var i of arr){
     console.log(i); 
 }
+
+console.log("Example of do...while statement");
+console.log("******************************" );
+
+code_str_template = 
+`
+do 
+    statement
+while (condition);
+`
+
+var i = 0; 
+if( i == 3){
+}
+do {
+        i += 1;
+        console.log(i);
+} while (i < 5);
+
+
+
+// var i = 0; 
+// do {
+//     i += 1;
+//     console.log(i);
+// } while (i < 5);
 
 console.log("End of Javascript Iteration");
