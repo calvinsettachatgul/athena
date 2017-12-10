@@ -14,7 +14,6 @@ for (initialization; test condition; iteration statement){
 // For loop example
 console.log("Example of Iteration with a for loop" );
 console.log("******************************" );
-console.log("******************************" );
 
 for( var count = 0 ; count < 10; count++){
     console.log("Current count : " + count);
@@ -29,7 +28,6 @@ for (variablename in object){
 
 */
 console.log("Example of Iteration of an object's properties with for...in loop" );
-console.log("******************************" );
 console.log("******************************" );
 
 
@@ -52,10 +50,29 @@ for (aProp in myObj){
 */
 console.log("Example of Iteration over an array with forEach");
 console.log("******************************" );
-console.log("******************************" );
 
 var my_arr = [1,2,3,4];
 
 my_arr.forEach( function(el){
     console.log(el);
 });
+
+console.log("Example of for...of statement iterating over iterable objects");
+console.log("******************************" );
+
+let code_str_template = 
+`
+>> for (variable of object) {
+>>     statement
+>> };
+`
+
+console.log( code_str_template);
+
+let arr = [3, 5, 7];
+
+for ( var i of arr){
+    console.log(i); 
+}
+
+console.log("End of Javascript Iteration");
