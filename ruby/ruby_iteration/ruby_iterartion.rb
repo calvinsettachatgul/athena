@@ -75,6 +75,9 @@ end
 
 # example
 
+puts "for in range operator example"
+puts "------------------------------"
+
 for i in 0...5 
     puts "value of local variable is  #{i}"
 end
@@ -86,6 +89,9 @@ for loop doesn\'t create a new scope for local variables
 for loops expression separarted from code by the reserved word do a new line or semicolon
 creating a new scope for local variables
 '''
+
+puts "Using range operator to create an iterable object"
+puts "------------------------------"
 
 (0..5).each do |i|
     puts "Value of local varialbe is #{i}"
