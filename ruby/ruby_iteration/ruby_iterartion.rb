@@ -75,7 +75,7 @@ end
 
 # example
 
-puts "for in range operator example"
+puts "for in loop using range operator"
 puts "------------------------------"
 
 for i in 0...5 
@@ -94,7 +94,17 @@ puts "Using range operator to create an iterable object"
 puts "------------------------------"
 
 (0..5).each do |i|
-    puts "Value of local varialbe is #{i}"
+    puts "Value of local variable is #{i}"
+end
+
+puts "Iteration over array objects"
+puts "------------------------------"
+
+puts "my_arr = [1,2,3,4,5]"
+my_arr = [1,2,3,4,5]
+
+my_arr.each do |i|
+    puts "Value of local variable is #{i}"
 end
 
 # ruby break statement
