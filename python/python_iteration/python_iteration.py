@@ -43,6 +43,13 @@ for i in range(5):
     print(i)
 
 print("Flow Control Continue")
+print("Continue the outer loop if conditional is met i == 3")
+print("skipping execution for the case of i == 3")
+print("Do not execute the remaining code after the continue statement and continue with the rest of the iteration")
+for i in range(5):
+    if( i == 3):
+        continue
+    print(i)
 print("------------------------------")
 
 print("End of Python Iteration")
