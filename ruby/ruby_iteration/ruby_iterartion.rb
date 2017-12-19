@@ -160,13 +160,18 @@ end
 # ruby retry statement rescue block 
 puts "Flow Control Iteration over array objects retry statement"
 puts "retry will make iteration start over when condition i == 3 is met"
+puts "my_arr = [1,2,3,4,5]"
 my_arr = [1,2,3,4,5]
 begin
 my_arr.each do |i|
-    raise if i > 3
+    raise if i == 3
     puts "Value of local variable is #{i}"
 end
 rescue
+    puts "in rescue"
+    puts "Value of local variable is #{i}"
+    my_arr = [1,2]
+    puts "changing my_arr to [1,2]"
     retry
 end
 
