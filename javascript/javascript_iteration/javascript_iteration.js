@@ -73,8 +73,8 @@ console.log( code_str_template);
 
 let arr = [3, 5, 7];
 
-for ( var i of arr){
-    console.log(i); 
+for ( var value of arr){
+    console.log(value); 
 }
 
 console.log("Example of do...while statement");
