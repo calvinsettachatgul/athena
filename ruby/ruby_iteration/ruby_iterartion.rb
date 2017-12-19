@@ -108,8 +108,65 @@ my_arr.each do |i|
 end
 
 # ruby break statement
-# ruby next statement
-# ruby redo statement
-# ruby retry statement
+puts "Flow Control Iteration over array objects break statement"
+puts "break will stop the iteration when condition i == 3 is met"
+puts "------------------------------"
 
+my_arr.each do |i|
+    if( i == 3)
+        break
+    end
+    puts "Value of local variable is #{i}"
+end
+
+# ruby next statement
+puts "Flow Control Iteration over array objects next statement"
+puts "next will skip the current execution and continue the iteration when condition i == 3 is met"
+puts "called continue in python"
+puts "skipping execution when i == 3"
+puts "------------------------------"
+
+my_arr.each do |i|
+    if( i == 3)
+        next
+    end
+    puts "Value of local variable is #{i}"
+end
+
+# ruby redo statement
+puts "Flow Control Iteration over array objects redo statement"
+puts "current iteration will repeat when condition i == 3 is met"
+puts "there still has to be a condition when the redo statement stops"
+
+my_arr = [
+            {val: 1, error:false},
+            {val: 2, error:false},
+            {val: 3, error:true},
+            {val: 4, error:false},
+            ]
+
+my_arr.each do |message|
+
+    if (message[:error] == true)
+        puts "found error"
+        message[:error] = false
+        redo 
+    else
+        puts "val is #{message[:val]} error is #{message[:error]}"
+    end
+    
+end
+
+# ruby retry statement rescue block 
+puts "Flow Control Iteration over array objects retry statement"
+puts "retry will make iteration start over when condition i == 3 is met"
+my_arr = [1,2,3,4,5]
+begin
+my_arr.each do |i|
+    raise if i > 3
+    puts "Value of local variable is #{i}"
+end
+rescue
+    retry
+end
 
