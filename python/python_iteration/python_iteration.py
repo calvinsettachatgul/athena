@@ -32,5 +32,17 @@ print("------------------------------")
 for i in range(5):
     print(i)
 
-print("End of Python Iteration")
 
+print("Flow Control Break")
+print("Break the outer loop if conditional is met")
+print("Break the loop if counter = 3")
+print("------------------------------")
+for i in range(5):
+    if( i == 3):
+        break
+    print(i)
+
+print("Flow Control Continue")
+print("------------------------------")
+
+print("End of Python Iteration")
