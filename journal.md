@@ -1,7 +1,7 @@
-this is the last change 
-change first line
-does this work?
-change
+010218
+------------------------------
+added question from cracking the coding interview 
+1.1 uniq char
 
 121017
 ------------------------------
