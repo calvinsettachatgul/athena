@@ -1,5 +1,7 @@
 010218
 ------------------------------
+added guard to ruby_test
+
 added question from cracking the coding interview 
 1.1 uniq char
 

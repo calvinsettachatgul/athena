@@ -10,5 +10,4 @@ case a
 
 	else
 		puts "something"
-
 end
