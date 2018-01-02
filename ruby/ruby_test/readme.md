@@ -11,3 +11,4 @@ run rspec manually
 rspec spec
 
 removing journal and .gitignore
+trying again
