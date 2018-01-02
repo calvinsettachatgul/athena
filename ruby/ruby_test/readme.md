@@ -9,6 +9,3 @@ bundle exec guard init rspec
 
 run rspec manually
 rspec spec
-
-removing journal and .gitignore
-trying again
