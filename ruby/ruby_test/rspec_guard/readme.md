@@ -1,44 +1,11 @@
-Gauard setup script 
-------------------------------
+# Testing Ruby
 
-sets up a project directory 
+# guard gem
 
-with git version control 
+initialize guard file 
+bundle exec guard init rspec
 
-Gemfile setup with guard-rspec in development
+# rspec gem
 
-Guardfile which watches src and spec directories
-
-makes 2 directories src and spec
-
-guard watches for changes in these folders
-
-makes a src/model.rb file  
-
-makes a spec/model_spec.rb file 
-
-makes a spec/spec_helper.rb file 
-
-
-Gemfile added
-------------------------------
-
-    group :development do
-        gem 'guard-rspec', require: false
-    end
-
-Guardfile added
-------------------------------
-
-    group :backend do
-        guard 'rspec', cmd: "bundle exec rspec" do
-          watch(%r{^src/(.+).rb$}) do |m|
-            "spec"
-          end
-
-          watch(%r{^spec/(.+).rb$}) do |m|
-            "spec/#{m[1]}.rb"
-          end
-        end
-    end
-
+run rspec manually
+rspec spec
