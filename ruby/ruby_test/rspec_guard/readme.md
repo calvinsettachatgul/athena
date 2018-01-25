@@ -16,13 +16,17 @@ makes a spec/spec_helper.rb file
 
 Gemfile added
 ------------------------------
+
 group :development do
+
     gem 'guard-rspec', require: false
+
 end
 
 
 Guardfile added
 ------------------------------
+
 group :backend do
     guard 'rspec', cmd: "bundle exec rspec" do
       watch(%r{^src/(.+).rb$}) do |m|
