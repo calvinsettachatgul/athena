@@ -2,15 +2,21 @@ Gauard setup script
 ------------------------------
 
 sets up a project directory 
+
 with git version control 
+
 Gemfile setup with guard-rspec in development
-Guardfile
+
+Guardfile which watches src and spec directories
 
 makes 2 directories src and spec
+
 guard watches for changes in these folders
 
 makes a src/model.rb file  
+
 makes a spec/model_spec.rb file 
+
 makes a spec/spec_helper.rb file 
 
 
