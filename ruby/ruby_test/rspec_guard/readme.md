@@ -18,11 +18,8 @@ Gemfile added
 ------------------------------
 
     group :development do
-
         gem 'guard-rspec', require: false
-
     end
-
 
 Guardfile added
 ------------------------------
