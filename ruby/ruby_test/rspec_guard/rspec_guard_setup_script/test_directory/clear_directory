@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf spec src tmp .git
+rm Gemfile Guardfile Gemfile.lock

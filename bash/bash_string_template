@@ -12,6 +12,4 @@ read -d '' html_doc <<"EOF"
 </html>
 EOF
 
-echo "echoing html_doc"
-echo $html_doc
-
+echo "echo $html_doc"

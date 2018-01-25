@@ -1,0 +1,68 @@
+#!/bin/bash
+
+# make the directory a git repository
+git init
+
+# initialize bundler Gemfile
+bundle init
+
+# add guard-rspec to Gemfile in development group this installs the rspec dependencies as well
+read -r -d '' guard_rspec_gemfile << EOF
+group :development do
+    gem 'guard-rspec', require: false
+end
+EOF
+
+echo "$guard_rspec_gemfile" >> ./Gemfile
+
+# install gems
+bundle install
+
+
+# configure Guardfile creates a Guardfile
+bundle exec guard init rspec
+
+# use this for Guard example watching src and spec folders
+
+read -r -d '' guard_statements << EOF
+group :backend do
+    guard 'rspec', cmd: "bundle exec rspec" do
+      watch(%r{^src/(.+).rb$}) do |m|
+        "spec"
+      end
+
+      watch(%r{^spec/(.+).rb$}) do |m|
+        "spec/#{m[1]}.rb"
+      end
+    end
+end
+EOF
+
+echo "$guard_statements" > Guardfile
+
+# watch for changes in _spec files and src files in spec and src directories
+mkdir spec src
+
+# create a spec_helper.rb file in spec folder
+touch ./spec/spec_helper.rb
+# create test_spec.rb files for unit tests
+touch ./spec/test_spec.rb
+# create model.rb src code files in src
+touch ./src/model.rb
+touch ./src/model2.rb
+
+# create some tests
+touch spec/model_spec.rb
+touch spec/model2_spec.rb
+
+echo "require spec_helper.rb" >> ./spec/spec_helper.rb
+
+# add model dependencies in spec_helper.rb
+echo "require_relative '../src/model.rb'" >> src/model.rb
+echo "require_relative '../src/model2.rb'" >> src/model2.rb
+
+git status 
+git add . 
+git commit -m "guard set up"
+
+guard

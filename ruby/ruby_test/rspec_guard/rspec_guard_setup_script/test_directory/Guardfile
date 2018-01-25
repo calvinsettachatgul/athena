@@ -1,0 +1,11 @@
+group :backend do
+    guard 'rspec', cmd: "bundle exec rspec" do
+      watch(%r{^src/(.+).rb$}) do |m|
+        "spec"
+      end
+
+      watch(%r{^spec/(.+).rb$}) do |m|
+        "spec/#{m[1]}.rb"
+      end
+    end
+end
