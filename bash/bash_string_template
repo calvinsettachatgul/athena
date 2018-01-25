@@ -1,0 +1,17 @@
+echo "created a string variable html_doc"
+read -d '' html_doc <<"EOF"
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>
+</title>
+</head>
+<body>
+</body>
+</html>
+EOF
+
+echo "echoing html_doc"
+echo $html_doc
+
