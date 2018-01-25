@@ -17,25 +17,25 @@ makes a spec/spec_helper.rb file
 Gemfile added
 ------------------------------
 
-group :development do
+    group :development do
 
-    gem 'guard-rspec', require: false
+        gem 'guard-rspec', require: false
 
-end
+    end
 
 
 Guardfile added
 ------------------------------
 
-group :backend do
-    guard 'rspec', cmd: "bundle exec rspec" do
-      watch(%r{^src/(.+).rb$}) do |m|
-        "spec"
-      end
+    group :backend do
+        guard 'rspec', cmd: "bundle exec rspec" do
+          watch(%r{^src/(.+).rb$}) do |m|
+            "spec"
+          end
 
-      watch(%r{^spec/(.+).rb$}) do |m|
-        "spec/#{m[1]}.rb"
-      end
+          watch(%r{^spec/(.+).rb$}) do |m|
+            "spec/#{m[1]}.rb"
+          end
+        end
     end
-end
 
