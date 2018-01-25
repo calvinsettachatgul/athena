@@ -65,4 +65,5 @@ git status
 git add . 
 git commit -m "guard set up"
 
+# start the guard server is watching 8))
 guard
