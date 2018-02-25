@@ -1,19 +1,19 @@
 # creating the database and postgresql role 
-# create a user with a password
+## create a user with a password
 
 CREATE USER new_user WITH PASSWORD 'my_new_password';
-# example
+### example
 CREATE USER postgres WITH PASSWORD 'postgres';
 
-# verify user exists
-# note usename not username
+## verify role exists
+### note usename not username
 
 SELECT usename FROM pg_user;
 
-# create a database with owner
+### create a database with db owner of role created previously
 
 CREATE DATABASE todo OWNER <new_user>;
-# example
+### example
 CREATE DATABASE todo_app OWNER postgres;
 
 source: 
