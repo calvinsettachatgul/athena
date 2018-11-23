@@ -31,6 +31,7 @@ matrixAddition(
 
 function matrixAddition(matrix){
 	// code
+  console.log('first start');
 	return matrix;
 }
 
