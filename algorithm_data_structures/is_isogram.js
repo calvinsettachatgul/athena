@@ -9,6 +9,7 @@
 */
 
 function isIsogram (inputString) {
+  console.log('first line of code');
   return true;
 }
 
