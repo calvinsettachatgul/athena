@@ -22,7 +22,10 @@ If it is the case we will return k, if not return -1.
 
 
 function digPow(n, p){
-  console.log('first line of code');
+  if (n == 0 && p == 0){
+    return false;
+  }
+  return true;
 }
 
 module.exports = digPow;
