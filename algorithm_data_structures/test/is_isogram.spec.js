@@ -4,11 +4,10 @@ let chai = require('chai').expect
 
 let isIsogram = require('../is_isogram.js');
 
-describe.only('#isIsogram', function () {
-  context('test first input', function () {
-    it('should work verify something', function () {
-      console.log(isIsogram, '<<< isIsogram');
-      assert.equal(1, 1);
+describe('#isIsogram', function () {
+  context('letters given', function () {
+    it('should work when only one letter given', function () {
+      assert.equal(isIsogram('a'), true);
     });
   });
 });
