@@ -4,7 +4,7 @@ let chai = require('chai').expect
 
 let digPow = require('../dig_pow.js');
 
-describe.only('#digPow', function () {
+describe('#digPow', function () {
   context('number is 1', function () {
     it('should return -1', function () {
       /*
