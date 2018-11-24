@@ -17,7 +17,7 @@ function isIsogram (inputString) {
   let isIsogram = true;
   // count the frequency
   for(let i = 0; i< inputString.length; i++){
-    let lett = inputString.charAt(i);
+    let lett = inputString.charAt(i).toLowerCase();
     if(!lettFrequency[lett]){
       lettFrequency[lett] = 0
     }

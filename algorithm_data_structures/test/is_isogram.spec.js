@@ -20,6 +20,11 @@ describe('#isIsogram', function () {
           assert.equal(isIsogram('aba'), false);
         });
       })
+      context('when the string with the same letters of different case', function() {
+        it('should work when only one letter given', function () {
+          assert.equal(isIsogram('abA'), true);
+        });
+      });
     })
   })
 });
