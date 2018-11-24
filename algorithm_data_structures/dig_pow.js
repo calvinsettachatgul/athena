@@ -22,10 +22,28 @@ If it is the case we will return k, if not return -1.
 
 
 function digPow(n, p){
-  if (n == 0 && p == 0){
-    return false;
+  let powerSum = 0; // left side of the equality
+  let nString = n.toString();
+
+  for( var i = 0; i < nString.length; i++){
+    powerSum += Math.pow(parseInt(nString[i]), p);
+    p += 1;
   }
-  return true;
+  let k = powerSum / n;
+  if( k !== Math.round(k)){
+    k = -1
+  }
+  return k;
 }
 
+
+
 module.exports = digPow;
+
+/*
+ 
+ 100 1
+
+ 1^1 + 0^2 + 0^3 = 100 * 1
+ 
+*/
