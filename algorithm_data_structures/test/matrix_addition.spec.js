@@ -4,7 +4,7 @@ let chai = require('chai').expect
 
 let matrixAddition = require('../matrix_addition.js');
 
-describe.only('#matrixAddtion', function () {
+describe('#matrixAddtion', function () {
   context('first case', function () {
     it('should work verify something', function () {
       console.log(matrixAddition);
