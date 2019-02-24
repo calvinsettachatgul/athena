@@ -1,6 +1,14 @@
 # calvins_api
 
-# lambda function to get all posts
+# cognito user pool
+### how to authorize apigateway calls
+
+# authorizer
+### needs cognito userpool
+
+# lambda function
+
+### lambda function to get all posts
 
 exports.handler = async (event) => {
     // TODO implement
@@ -25,12 +33,11 @@ exports.handler = async (event) => {
             id: 4,
             title: 'posttitle4',
             text: 'posttext4'
-        },
-,
+        }
     ]
     const response = {
         statusCode: 200,
-        body: JSON.stringify(posts),
+        body: posts,
     };
     return response;
 };
