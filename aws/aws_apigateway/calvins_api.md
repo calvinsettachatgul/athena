@@ -41,3 +41,5 @@ exports.handler = async (event) => {
     };
     return response;
 };
+
+[all posts link](https://bt84vf6p16.execute-api.us-east-1.amazonaws.com/dev/posts)
