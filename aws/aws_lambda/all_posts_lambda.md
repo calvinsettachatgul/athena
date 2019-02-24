@@ -23,12 +23,11 @@ exports.handler = async (event) => {
             id: 4,
             title: 'posttitle4',
             text: 'posttext4'
-        },
-,
+        }
     ]
     const response = {
         statusCode: 200,
-        body: JSON.stringify(posts),
+        body: posts,
     };
     return response;
 };
