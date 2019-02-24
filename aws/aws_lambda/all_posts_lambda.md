@@ -1,7 +1,6 @@
 # all posts lambda for calvins_api aws_apigateway
 
 exports.handler = async (event) => {
-    // TODO implement
 
     const posts = { 
       posts: 
