@@ -1,7 +1,7 @@
 openapi: 3.0.0
 
 info:
-  title: post service
+  title: posts service
   version: 1.0.0
   description: >
     Provides operations to read create update destroy posts
