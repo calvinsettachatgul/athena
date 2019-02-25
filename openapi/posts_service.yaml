@@ -1,0 +1,119 @@
+openapi: 3.0.0
+
+info:
+  title: posts service
+  version: 1.0.0
+  description: >
+    Provides operations to read create update destroy posts
+servers:
+- url: https://stubbed_serice
+  description: dev
+paths:
+  /health:
+    get:
+      description: Health check for post service
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  application:
+                    type: string
+                    example: OK
+                required:
+                - application
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+  /status:
+    get:
+      description: Status check.
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  version:
+                    type: string
+                    example: posts:1
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+  /posts:
+    get:
+      tags:
+        - post
+      description: Get posts.
+      responses:
+        '200':
+          $ref: '#/components/responses/PostsResponse'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
+
+components:
+  responses:
+      BadRequest:
+        description: Invalid input.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ApiStandardErrors'
+      InternalServerError:
+        description: Internal Server Error.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ApiStandardErrors'
+      PostsResponse:
+        description: List of Posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostsModel'
+  schemas:
+    ApiStandardErrors:
+      description: Error Responses for the Posts API Standards.
+      type: object
+      properties:
+        detail:
+          type: string
+        title:
+          type: string
+        type:
+          type: string
+      required:
+        - detail
+        - title
+    PostsModel:
+      description: List of posts.
+      type: object
+      properties:
+        posts:
+          type: array
+          items:
+            $ref: '#/components/schemas/PostModel'
+    PostModel:
+      type: object
+      properties:
+        id:
+          description: post id.
+          type: string
+          minLength: 1
+          pattern: "^[A-Za-z0-9]*$"
+        title:
+          description: post title.
+          type: string
+          minLength: 1
+          pattern: "^[A-Za-z0-9]*$"
+        text:
+          description: post text.
+          type: string
+          minLength: 1
+          pattern: "^[A-Za-z0-9]*$"
+
+
+
