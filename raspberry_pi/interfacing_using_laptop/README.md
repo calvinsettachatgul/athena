@@ -20,3 +20,7 @@
 
 *  https://pihw.wordpress.com/guides/direct-network-connection/
 
+# https://mycyberuniverse.com/mac-os/connect-to-raspberry-pi-from-a-mac-using-ethernet.html
+
+connecting to raspbery pi via ethernet cable
+
