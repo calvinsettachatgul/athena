@@ -4,8 +4,8 @@
 
 connecting to raspbery pi via ethernet cable
 
-turn on 
-internet sharring 
+turn on
+internet sharring
 ethernet
 
 # ssh into raspberry pi
@@ -17,3 +17,4 @@ add raspberry pi to known hosts
 verify logging into raspberry pi
 
 type in password
+
