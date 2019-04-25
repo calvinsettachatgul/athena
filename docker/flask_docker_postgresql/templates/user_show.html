@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>{{ user.nickname|title }} Show Page</h1>
+  <li>{{ user.firstname}} {{ user.lastname }}</li>
+  <li>screen name: {{ user.nickname }}</li>
+  <li>email: {{ user.email }}</li>
+</ul>
+<br>
+<br>
+
+<img src="/static/{{user.photo}}">
+
+<div id="aboutme">About me: {{ user.aboutme }}</div>
+{% endblock %}
