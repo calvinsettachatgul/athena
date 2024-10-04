@@ -34,14 +34,20 @@ node7.right = node8;
 
 */
 
-let nodes = [node1, node2, node3, node4,
-            node5, node6, node7, node8
-]
+// let nodes = [node1, node2, node3, node4,
+//             node5, node6, node7, node8
+// ]
 
 let binaryTree = new BinaryTree(node4)
 
-console.log("preorder");
-console.log("4 2 1 3 5 7 6 8")
+// console.log("preorder");
+// console.log("4 2 1 3 5 7 6 8")
+
+// console.log("postorder");
+// console.log("1 3 2 6 8 7 5 4")
+
+console.log("inorder");
+console.log("1 2 3 4 5 6 7 8")
 
 let traverse = (root) => {
     // base case
@@ -49,8 +55,8 @@ let traverse = (root) => {
         return;
     }
 
-    console.log(root.value);
     traverse(root.left);
+    console.log(root.value);
     traverse(root.right);
 
     // recursive cases
